@@ -10,6 +10,3 @@
       
     - name: install docker
       action: yum pkg=docker state=present
-      
-    - name: service 
-      action: sevice name=docker state=started
