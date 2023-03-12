@@ -8,9 +8,6 @@
     - name: install git
       action: yum pkg=git state=present
       
-    - name: install java
-      action: yum pkg=java:1.8 state=present
-      
     - name: install docker
       action: yum pkg=docker state=present
       
